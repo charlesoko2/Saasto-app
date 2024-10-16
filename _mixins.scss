@@ -1,0 +1,11 @@
+// mixins.scss
+@mixin button-style($bg-color, $text-color) {
+  border-radius: 34px;
+  padding: 17px 32px;
+  color: $text-color;
+  background-color: $bg-color;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  line-height: 70px;
+}
