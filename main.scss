@@ -8,6 +8,7 @@ body {
   line-height: 1;
   height: vars.$height;
   font-family: vars.$poppins-font;
+
   margin-inline: auto;
 }
 
@@ -55,97 +56,102 @@ header {
     font-weight: 600;
   }
 }
-
 main {
   display: block;
   margin-inline: auto;
   position: relative;
   text-align: center;
-  line-height: 1.5;
   overflow: hidden;
   background-color: vars.$orange;
 
   .text-content {
-    max-width: 800px;
     margin: 0 auto;
     margin-top: 8rem;
     position: relative;
     margin-bottom: 8rem;
-
-    h1 {
-      font-size: 64px;
-    }
-
-    p {
-      font-size: 20px;
-    }
   }
 
-  .alarm {
-    position: absolute;
-    left: 20%;
-    top: 4rem;
+  h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 70px;
+    line-height: 1;
   }
 
   .shape {
     position: absolute;
-    left: 1rem;
-    bottom: 12rem;
+    left: 22rem;
+    bottom: 10.5rem;
+  }
+
+  .alarm {
+    position: absolute;
+    left: 18%;
+    top: 4rem;
+    width: 100px;
+    height: auto;
   }
 
   .mobile1 {
     position: absolute;
-    left: 6rem;
+    left: 5.5rem;
     bottom: -10.2rem;
     //top: 5rem;
     transform: rotate(-15deg);
-    height: 650px;
+    height: 590px;
   }
 
   .vector6 {
     position: relative;
     right: 7rem;
+    width: 100px;
+    height: auto;
   }
 
   .mobile2 {
     position: absolute;
-    right: 0;
+    right: -5rem;
     bottom: -5.5rem;
     //top: 5rem;
     transform: rotate(20deg);
-    height: 580px;
+    height: 520px;
+    width: 500px;
   }
 
   .clip {
     position: absolute;
     right: 25%;
-    bottom: 200px;
+    bottom: 8rem;
     //top: 5rem;
   }
 
   .vector3 {
     position: absolute;
-    left: 15%;
-    top: 2rem;
+    left: 13%;
+    top: 4rem;
+    width: 100px;
+    height: auto;
   }
 
   .vector4 {
     position: absolute;
-    left: 32%;
-    top: 38rem;
+    left: 35%;
+    top: 34rem;
   }
 
   .vector7 {
     position: absolute;
     right: 1rem;
     top: 1rem;
-    height: 90px;
+    height: 50px;
   }
 
   .vector6 {
     position: relative;
-    left: 37%;
-    top: -510px;
+    left: 30%;
+    top: -460px;
+    width: 100px;
+    height: 100px;
   }
 
   .vector5 {
@@ -153,12 +159,9 @@ main {
     right: 32%;
     top: 31rem;
     bottom: -10.7rem;
+    width: 100px;
+    height: auto;
   }
-}
-
-p {
-  font-size: vars.$fontsize;
-  margin: 20px 0;
 }
 
 .cta-button {
@@ -169,14 +172,14 @@ p {
 .stats {
   display: flex;
   justify-content: space-around;
-  padding: 50px;
+  padding: 20px;
   background-color: vars.$white;
 
   .stat {
     text-align: center;
 
     h2 {
-      font-size: 36px;
+      font-size: 25px;
       color: vars.$deepBlack;
     }
 
